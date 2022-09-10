@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <RootNamespace>_3Tas</RootNamespace>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Assets\Blu.png" />
+    <None Remove="Assets\GameGrid.png" />
+    <None Remove="Assets\Red.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Assets\Blu.png" />
+    <Resource Include="Assets\GameGrid.png" />
+    <Resource Include="Assets\Red.png" />
+  </ItemGroup>
+
+</Project>
